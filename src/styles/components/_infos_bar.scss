@@ -1,0 +1,19 @@
+.infos-bar {
+    padding: 16px 24px;
+    background-color: rgb(240, 202, 202);
+
+    &_infos {
+        display: flex;
+        gap: 40px;
+
+        &__item {
+            font-size: 14px;
+            color: #000;
+
+            b {
+                font-size: 18px;
+                display: block;
+            }
+        }
+    }
+}
