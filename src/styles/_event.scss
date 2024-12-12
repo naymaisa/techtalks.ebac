@@ -21,7 +21,7 @@
     &--image-left {
         .container {
             flex-direction: row-reverse;
-
+            /* flex-direction: row-reverse é para alterar a direçao do display flex*/
         }
     }
 

@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 </head>
 
@@ -41,8 +42,10 @@
         </div>
     </header>
 
+
     <section class="event event--local">
-        <div class="container">
+        <!--data-aos="fade-right" é para colocar animaçao na pagina-->
+        <div class="container" data-aos="fade-right">
             <div class="event__details">
                 <h2 class="event__details__title">O Local</h2>
                 <p class="event__details__description">
@@ -56,7 +59,8 @@
         </div>
     </section>
     <section class="event event--cardapio event--image-left">
-        <div class="container">
+        <!--data-aos="fade-right" é para colocar animaçao na pagina-->
+        <div class="container" data-aos="fade-left">
             <div class="event__details">
                 <h2 class="event__details__title">Cardapio</h2>
                 <p class="event__details__description">
@@ -69,7 +73,8 @@
         </div>
     </section>
     <section class="event event--presente">
-        <div class="container">
+        <!--data-aos="fade-right" é para colocar animaçao na pagina-->
+        <div class="container" data-aos="fade-right">
             <div class="event__details">
                 <h2 class="event__details__title">Lista de presentes</h2>
                 <p class="event__details__description">
@@ -83,7 +88,7 @@
     </section>
 
 
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="scripts/main.js"></script>
 </body>
 
